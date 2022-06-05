@@ -1,0 +1,15 @@
+#spring
+spring:
+  datasource:
+    username: admin
+    password: wyq422326
+    url: jdbc:mysql://114.55.30.247:3306/blog?characterEncoding=utf-8&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+  security:
+    user:
+        name: admin
+        password: admin
+server:
+  port: 1314
+  context-path:
